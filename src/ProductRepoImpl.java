@@ -6,6 +6,8 @@ public class ProductRepoImpl implements ProductRepository{
     }
 
     @Override
+    public void devBMethod() {
+        System.out.println("Method from dev B");
     public void devAMethod() {
         System.out.println("Hello from dev A");
     }
